@@ -570,6 +570,7 @@ Dla portfela 10 000 firm (36 bankrutów, 9 964 zdrowych):
 
 Zamiast używać jednego modelu, stosujemy kaskadę:
 
+```mermaid
 flowchart TD
     M["<b>1. MODEL h2 (podstawowy)</b><br/>→ Prognoza 2-letnia<br/>→ Decyzja: czy firma wymaga uwagi?"]
 
@@ -594,6 +595,7 @@ flowchart TD
     class LR safe
     class M1,M3 model
     class A1,A3 action
+```
 
 **Bilans kaskady:**
 
